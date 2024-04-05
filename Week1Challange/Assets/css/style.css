@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} /*applies a universal the whole file.*/
+
+body {
+    background-color: #d9dcd6;
+} /*applies a defualt backgroud color to the whole page.*/
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}  /*applies padding, front styles, background color and letter color to everything in the "header" section.*/
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+#seo {
+    color: #d9dcd6;
+} /*applies a minor color change to a few letters in the header.*/
+
+header ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+} /*applies a padding, a float the the right, a slight movement to the left, a font family, a font size and take away defualt list visuals for all "ul" elements in the "header" element.*/
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+} /*applies a letter color chamge and removes the text decorations from all "a" elements in the "header" element.*/ 
+
+header ul li {
+    display: inline-block;
+    margin-left: 25px;
+} /*changed the display and moves any "li" element in the "ul" area in the "header" element.*/
+
+p {
+    font-size: 16px;
+} /*changes the font size of any "p" elements lettering.*/
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+} /*creates a class to put a large picture right below the header.*/
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+} /*a class to float elements to the left and shift the slightly more to the left.*/
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+} /*a class to float elements to the right and shift the slightly more to the right.*/
+
+content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+} /*applies a width area, visual display and movement to the right for eveything in the "content" element.*/
+
+section {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}/* applies a movement, padding, prevents the sides from touching other elements, a float to the right,height and width paramenter, a font family and a background color to everything in the "section" element>*/
+
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+} /*creates a class to apply a font color and a shift up to anything with this class.*/
+
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+} /*pplies a shift up and a center screen text alignment to anything with an "h3" element.*/
+
+section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+} /*changes the display style, max width, and a 10px margin to every "img" in the "section" element.*/
+
+content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+} /*applies a shift up, a padding, height measument, font family, a background color, and text color to every "div" element in the "content" element.*/
+
+ content img {
+    max-height: 200px;
+} /*creates a maximum height to every "img" in the "content element.*/
+
+content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+} /*applies a shift up and a font size to all "h2" elements in the "content" element.*/
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+} /*applies padding, a font family, a center text alignment, prevents sides from being next to other content areas.*/
+
+footer h2 {
+    font-size: 20px;
+} /*applies a font size to all "h2" elements in the "footer" element.*/
